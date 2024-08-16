@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dra. Daniela Coelho</title>
+
+    <link rel="shortcut icon" href="./imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./src/style.css">
+    <link rel="stylesheet" href="./src/reset.css">
+
+</head>
+
+<body>
+    <header class="cabecalho">
+        <div class="logo">
+        <img src="./imagens/logo-sem-fundo.png" alt="Logo" class="logo-img">
+        <h1 class="logo-escrita">Dra. Daniela Coelho</h1>
+        </div>
+        <nav>
+            <ul class="menu">
+                <li><a href="#sobre-mim">SOBRE MIM</a></li>
+                <li><a href="#areas-de-atuacao">Áreas de Atuação</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <picture >
+            <source srcset="./imagens/foto-maior-tiny.jpg" media="(max-width:620px)">
+            <img src="./imagens/foto-maior.jpg" alt="Dra. Daniela Coelho"id="foto-maior">
+        </picture>
+
+            <div class="valores">
+
+                <div class="valores-msg">
+                <h2 class="m1">Missão</h2>
+                <p class="p1">Fazer acompanhamento neuropsicológico global: avaliar, orientar e, quando necessário reabilitar.</p>
+                </div>
+
+                <div class="valores-msg">
+                <h2 class="v2">Visão</h2>
+                <p class="p2">Sempre manter a atuação pautada em evidências científicas e atualizações da especialidade.</p>
+                </div>
+
+                <div class="valores-msg">
+                <h2 class="v3">Valores</h2>
+                <p class="p3">Propósito, ética, comprometimento, e valorização do ser humano.</p>
+                </div>
+            </div>
+
+            <div class="sobre-mim-pai"> <a name="sobre-mim"></a>
+                <img src="./imagens/jaleco-sem-fundo.png" alt="Dra. Daniela Coelho">
+
+            <div class="sobre-mim-filho"> 
+                <h2>Sobre Mim</h2>
+
+                    <p>Sou Daniela Coelho, psicóloga formada pela Universidade Sagrado Coração. Possuo título de Psicóloga da Saúde e Neuropsicóloga após concurso de prova de títulos do Conselho Federal de Psicologia (CFP).</p>
+                    <button onclick="toggle('resposta1')" class="botao-1" id="botao1" data-nome="resposta1">Saiba Mais</button>
+
+                    <p id="resposta1" class="resposta-oculta">
+                    Minha jornada acadêmica incluiu uma Residência Multiprofissional em Neurologia e Neurocirurgia, um mestrado e um doutorado pelo Programa de Neurologia e Neurociências, todos pela Universidade Federal de São Paulo/ Escola Paulista de Medicina (UNIFESP/EPM).
+                    
+                    Com mais de uma década de experiência, tive a oportunidade de ter sido preceptora da residência multiprofissional em neurologia e neurocirurgia da UNIFESP/EPM, além de supervisora de alunos de especialização e mestrado. 
+                        
+                    Como docente em pós-graduações  de Neuropsicologia há oito anos, dedico-me ao ensino e à pesquisa, contribuindo com artigos científicos e capítulos de livros publicados internacionalmente.
+                        
+                    Sou também neuropsicóloga no Centro de Neurociências Aplicadas (CNA), e fundadora do Grupo Awake Cognição e Neurocirurgia, onde aplicamos nosso conhecimento e boas práticas para oferecer soluções inovadoras no campo da cognição e neurocirurgia.
+                        
+                    No meu consultório (CNA), recebo pacientes com uma abordagem humanizada e especializada, focada em promover o bem-estar cognitivo e emocional. Se você busca acompanhamento neuropsicológico com base em evidências científicas, estou aqui para ajudar.
+                        
+                    Explore meu site para saber mais sobre os serviços oferecidos e entre em contato para agendar sua consulta. Estou comprometida em apoiá-lo(a) em sua jornada de saúde neuropsicológica.
+                    </p>
+                
+                </div>
+            </div>
+
+<!------------------------------------------------------------------------->
+        
+            <div class="areas-atuacao-pai"> <a name="areas-de-atuacao"></a>
+
+                <div class="area-at-pic">
+                <picture >
+                    <source srcset="./imagens/foto-cerebro-tiny.jpg" media="(max-width:620px)">
+                    <img src="./imagens/foto-cerebro.jpg" alt="Dra. Daniela Coelho"id="foto-maior">
+                </picture>
+                </div>
+
+                <div class="areas-atuacao-filho">
+                <h2>Áreas de atuação</h2>
+
+                    <h3>Avaliação Neuropsicológica pré tratamento neurocirúrgico. <button onclick="toggle('resposta2')" id="botao2" data-nome="resposta2"><img src="./imagens/seta-sem-fundo.png" alt="Clique para saber mais"></button></h3>
+
+                        <p id="resposta2" class="resposta-oculta">A avaliação neuropsicológica pré-cirúrgica auxilia ampliando    qualitativamente os achados de exames de neuroimagem, correlacionando os achados estruturais versus função cognitiva relacionada.  Por exemplo: tumores cerebrais, epilepsia, malformação artériovenosa (MAV), aneurismas incidentais, protocolos para tratamento cirurgico de Mal de Parkinson (Deep Brain Stimulation - DBS), etc.
+                        </p> <br>
+
+                    <h3> Avaliação das Funções neurocognitivas em neurocirugia do paciente acordado. <button onclick="toggle('resposta3')" id="botao3" data-nome="resposta3"><img src="./imagens/seta-sem-fundo.png" alt="Clique para saber mais"></button>
+                    </h3>
+
+                        <p id="resposta3" class="resposta-oculta">A monitorização intraoperatória normalmente ocorre quando envolve neurocirurgias em áreas cerebrais eloquentes, por exemplo: área cerebral relacionada linguagem. A avaliação das funções neurocognitivas é realizada pelo neuropsicólogo no momento em que o neurocirurgião faz o mapeamento cerebral através da estimulação cortical, junto ao neurofisiologista. O neuropsicólogo devidamente qualificado e com experiência é fundamental neste processo, pois, visa-se a preservação da função neurocognitiva relacionada a área cerebral.
+                        </p> <br>
+                    
+                    <h3>Avaliação Neuropsicológica após tratamento neurocirúrgico. <button id="botao4" onclick="toggle('resposta4')" data-nome="resposta4"><img src="./imagens/seta-sem-fundo.png" alt="Clique para saber mais"></button></h3>
+                        
+                        <p id="resposta4" class="resposta-oculta">
+                        Normalmente quando ocorre um acometimento cerebral (Acidente Vascular Cerebral - AVC, Traumatismo Craniano, Tumores etc) indica-se a avaliação neuropsicológica. A avaliação neste momento visa conhecer o perfil cognitivo destacando as habilidade e possíveis dificuldades após o ocorrido. Conhecendo o perfil após a lesão cerebral, são estabelecidas estratégias para adaptação e qualidade de vida do acometido e seu entorno.
+                        </p> <br>
+
+
+                    <h3>Avaliação de mudanças no padrão neurocognitivo e comportamental ao longo do tempo. <button onclick="toggle('resposta5')" id="botao5" data-nome="resposta5"><img src="./imagens/seta-sem-fundo.png" alt="Clique para saber mais"></button></h3>
+
+                        <p id="resposta5" class="resposta-oculta">As mudanças cognitivas (dificuldades de atenção, memória etc) e comportamentais ao longo dos anos podem indicar algum tipo de disfunção cerebral. Neste sentido a avaliação neuropsicológica pode contribuir no diagnóstico diferencial para doenças de  Alzheimer, Demência Vascular, Hidrocefalia por Pressão Normal  (HPN) que muitas vezes pode ser confundida com Alzheimer.
+                        </p> <br>
+                        
+
+                    <h3>Reabilitação neuropsicológica: <button onclick="toggle('resposta6')" id="botao6" data-nome="resposta6"><img src="./imagens/seta-sem-fundo.png" alt="Clique para saber mais"></button></h3> 
+
+                        <p id="resposta6" class="resposta-oculta">Visa compensar, adaptar e diminuir os impactos de alterações cognitivas e comportamentais nas atividades de vida diária do paciente. Ela envolve tanto o paciente quanto a família.
+                        </p>
+                  
+                </div>
+            </div>
+
+<!------------------------------------------------------------------------->
+
+            <div class="avalicao-neuro-pai">
+
+                <div class="av-neuro-pic">
+                <picture >
+                    <source srcset="./imagens/avaliacao-neuro-tiny.jpg" media="(max-width:620px)">
+                    <img src="./imagens/Avaliação-neuropsicologica.jpg" alt="Dra. Daniela Coelho"id="foto-maior">
+                </picture>
+                </div>
+
+            <div class="avalicao-neuro-filho">
+                <h2>Avaliação neuropsicológica</h2> <br>
+
+                <h3>O que é Avaliação Neuropsicológica? <button onclick="toggle('resposta7')" id="botao7" data-nome="resposta7"><img src="./imagens/seta-sem-fundo.png" alt="Clique para saber mais"></button></h3>
+
+                    <p id="resposta7" class="resposta-oculta">É um processo de investigação que visa descrever o comportamento e as funções cognitivas, como atenção, memória, funções executivas, raciocínio, linguagem, entre outras.
+                         
+                    O método envolve análise clínica, aplicação de questionários, escalas e instrumentos específicos; visa correlacionar os achados cognitivos com as áreas cerebrais e vias neurais envolvidas.  
+
+                    A partir da avaliação é possível estabelecer um  perfil neuropsicológico  tanto das habilidades quanto das áreas que necessitam de atenção terapêutica.
+                    </p> <br>
+
+
+                <h3>Quanto tempo é necessário para a avaliação? <button onclick="toggle('resposta8')" id="botao8" data-nome="resposta8"><img src="./imagens/seta-sem-fundo.png" alt="Clique para saber mais"></button></h3>
+                        
+                    <p id="resposta8" class="resposta-oculta">Normalmente é necessário o mínimo de cinco sessões, de uma hora cada. Entretanto,  não há um tempo limite estabelecido, visto que, cada paciente tem um tempo atencional, de execução e  engajamento nos instrumentos. Após 15 dias das sessões de avaliação marcar-se o retorno para devolutiva e entrega do laudo ou relatório neuropsicológico.
+                    </p>
+                        
+            </div>
+            </div>
+            
+<!------------------------------------------------------------------------->
+
+        <div id="faq1" class="faq-pai"> <a name="faq"></a>
+
+            <div class="faq-filho">
+            <h2>FAQ</h2>
+
+            <h3>Perguntas frequentes</h3>
+                <P>Estas são algumas das dúvidas mais comuns que recebo. Mas caso não encontre a resposta que para seus questionamentos aqui entre em contato diretamente comigo.
+                </P> <br>
+
+      
+                <h4>Qual é o valor da avaliação neuropsicológica? <button onclick="toggle('resposta9')" id="botao9" data-nome="resposta9"><img src="./imagens/seta-sem-fundo.png" alt="Clique para saber mais"></button></h4>
+                    
+                    <p id="resposta9" class="resposta-oculta">Os honorários são estabelecidos por sessão, que tem a duração de aproximadamente 60 minutos. (Hora de trabalho)
+                    </P>
+
+                    <br>
+                <h4>Quantas sessões são necessárias para a avaliação neuropsicológica? <button onclick="toggle('resposta10')" id="botao10" data-nome="resposta10"><img src="./imagens/seta-sem-fundo.png" alt="Clique para saber mais"></button></h4>
+                    
+                    <P id="resposta10" class="resposta-oculta">Geralmente, a avaliação é realizada em 5 sessões, mas esse número pode variar de acordo com as condições físicas, emocionais e de engajamento do paciente. Após as sessões de avaliação, é necessária uma sessão para a devolutiva dos resultados e entrega do laudo ou relatório neuropsicológico.
+                    </P>
+
+                    <br>
+                <h4>Como é realizado o pagamento das sessões? <button onclick="toggle('resposta11')" id="botao11" data-nome="resposta11"><img src="./imagens/seta-sem-fundo.png" alt="Clique para saber mais"></button></h4> 
+                    
+                    <p id="resposta11" class="resposta-oculta">O pagamento pode ser feito por meio de transferência bancária, depósito ou PIX.
+                    </P>
+      
+                    <br>
+                <h4>É possível obter reembolso pelos custos da avaliação neuropsicológica? <button onclick="toggle('resposta12')" id="botao12" data-nome="resposta12"><img src="./imagens/seta-sem-fundo.png" alt="Clique para saber mais"></button></h4>
+                    
+                    <P id="resposta12" class="resposta-oculta">Sim, é possível obter reembolso, dependendo do plano de saúde e das condições estabelecidas pela ANS. Recomenda-se verificar diretamente com a operadora do plano de saúde sobre as políticas de reembolso para esses procedimentos.
+                    </P>
+
+                    <br>
+                <h4>O que está incluído na sessão de devolutiva dos resultados? <button onclick="toggle('resposta13')" id="botao13" data-nome="resposta13"><img src="./imagens/seta-sem-fundo.png" alt="Clique para saber mais"></button></h4>
+
+                    <P id="resposta13" class="resposta-oculta">Na sessão de devolutiva, serão apresentados os resultados da avaliação neuropsicológica e entregue o laudo ou relatório detalhado sobre as conclusões obtidas durante as sessões.
+                    </P>
+            </div>
+
+        <div class="infos-adicionais">
+        <h3>Informações adicionais <button onclick="toggle('resposta14')" id="botao14" data-nome="resposta14"><img src="./imagens/seta-sem-fundo.png" alt="Clique para saber mais"></button></h3>
+
+            <p id="resposta14" class="resposta-oculta">A Agência Nacional de Saúde Suplementar (ANS) apresenta um rol de consultas, exames e tratamentos pertencentes à cobertura mínima obrigatória ofertada pelos planos de saúde.
+            
+            De acordo com a ANS, a avaliação e a reabilitação neuropsicológica ainda não pertencem aos procedimentos que são obrigatoriamente ofertados pelos planos de saúde, entretanto, através de consulta pública definiu-se: “Uma vez que a consulta com Psicólogo foi incluída no rol, estes procedimentos (exame e avaliação neuropsicológica) poderão ser realizados dentro das sessões cobertas, de acordo com os critérios listados na diretriz de utilização para consulta". </p>
+            
+            <br>
+            
+            <p>Confira abaixo os links das informações citadas e consulte seu plano de saúde:</p>
+            
+            <br>
+
+            <a href="https://www.danielacoelhoneuropsicologia.com/_files/ugd/f32277_58faa9af21c741f0b8d626e723894fd3.pdf">Exame Neuropsicológico - ANS</a>
+            <br>
+            <a href="https://www.danielacoelhoneuropsicologia.com/_files/ugd/f32277_40e530230b5d4233a4f6fe48ef0edc9c.pdf">Rol de procedimentos - ANS</a>
+        
+        </div>
+    </div>
+
+
+    </main>
+
+    <aside>
+        <h3>Locais de Atendimento &#128392</h3>
+
+        <div class="mapas">
+
+        <div class="sp">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.9364675398247!2d-46.64800052548712!3d-23.570725161934728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59be06213ed1%3A0x12cd8cc2825e042a!2sAv.%20Paulista%2C%2091%20-%20Bela%20Vista%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001311-000!5e0!3m2!1spt-BR!2sbr!4v1723336955837!5m2!1spt-BR!2sbr"allowfullscreen=""  loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <p>Avenida Paulista, 91, 8º andar.</p>
+        <p>Bela Vista, São Paulo-SP</p>
+        <p>CEP: 01311-000</p>
+        </div>
+
+        <div class="bauru">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3690.3839019953657!2d-49.06935482553716!3d-22.339128717828885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bf670e0addeeed%3A0x1dd02185bd4d7408!2sR.%20Luso-Brasileira%2C%204-44%20-%20Jardim%20Estoril%2C%20Bauru%20-%20SP%2C%2017016-230!5e0!3m2!1spt-BR!2sbr!4v1723336857887!5m2!1spt-BR!2sbr" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <p>Luso-Brasileira, 4-44 , 10º andar.</p>
+        <p>Jardim Estoril, Bauru - SP </p>
+        <p>CEP: 17016-230</p>
+        </div>
+
+    </div>
+    </aside>
+
+    <footer>
+
+        <div class="contatos-pai"> <a name="contato"></a>
+        <div class="contatos1">
+            <h3>Contatos</h3>
+            <br>
+
+        <a href="https://www.instagram.com/danielacoelhoneuro?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"><img src="./imagens/instagram-brands-solid.png" alt=""></a>
+
+        <a href="https://www.linkedin.com/in/danielacoelhoneuropsicologia/?originalSubdomain=br" target="_blank"><img src="./imagens/linkedin-in-brands-solid.png" alt=""></a>
+
+        <a href="tel:+5514981411585" target="_blank"><img src="./imagens/phone-solid.png">(+55) 14 98141-1585 /</a>
+
+        <a href="tel:+5511957812473" target="_blank">(+55) 11 95781-2473 - SP</a>
+
+        </div>
+
+        <div class="contatos2">
+            <h3>Saiba Mais</h3>
+            <br>
+            <a href="http://lattes.cnpq.br/3251530625558141" target="_blank"><img src="./imagens/currículo.png" alt="Currículo" class="curriculo"></a>
+<br>
+            <a href="https://www.researchgate.net/profile/Daniela-Coelho-4" target="_blank"><img src="./imagens/researchgate.png" alt="ResearchGate"></a>
+        </div>
+
+        </div>
+        <br>
+        <br>
+
+        <p>Todos os direitos reservados a Daniela de Souza Coelho - CRP/SP 11/4272 </p>
+        <p>Copyright © 2015 / Informe Legal: As informações contidas em nossa homepage têm caráter informativo e educacional</p>
+
+        <a href="https://www.linkedin.com/in/mariana-coelho-meyer-2ab4aa259/" target="_blank"> Feito por Mariana C. Meyer - Dev</a>
+        <a href="https://www.instagram.com/natibarbesocial/" target="_blank"> e Natália Barbe - Social Copy</a>
+
+    </footer>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>

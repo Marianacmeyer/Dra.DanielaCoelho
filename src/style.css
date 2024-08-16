@@ -1,0 +1,451 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    font-family: "poppins";
+    color: #276b79;
+    background-color:#F2EFEB;
+    overflow-x: hidden;
+}
+
+/* ------------------ CABEÇALHO --------------- */
+
+.cabecalho {
+    display: flex;
+    padding: 15px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+.menu {
+    display: flex;
+}
+  
+.menu li {
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #276b79;
+    text-decoration: none;
+    font-size: 19px;
+}
+
+nav ul li a:hover {
+    color: #319BB0;
+} 
+
+.logo-escrita{
+    color: #276b79;
+    display: inline-block;
+    transform: translatey(-35%);
+}
+
+.logo-img{
+    width: 75px;
+}
+
+.logo{
+    margin-left: 80px;
+}
+
+  
+@media (max-width: 620px) {
+    .logo {
+      display: block;
+      width: 100%;
+      text-align: center;
+    }
+
+    .logo-escrita{
+        margin-top: 20px;
+    }
+  
+    nav {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .menu {
+      display: block;
+      margin-top: 30px;
+      text-align: center;
+    }
+  
+    .menu li {
+      margin-left: 0;
+    }
+  
+    .menu a {
+      padding: 10px;
+      display: block;
+    }
+  }
+  
+/* ------------------------------------------------------------------------- */
+
+/* --------------- MAIN ----------------- */
+
+picture{
+  width: 100%;
+}
+#foto-maior{
+    width: 100%;
+    height: 550px; 
+    object-fit: cover;
+}
+picture source{
+  width: 100%;
+  object-fit: cover;
+}
+
+/* ------------------------------------------------------------- */
+
+.valores {
+  color: #F2EFEB;
+  width: 100%;
+  height: 350px;
+  align-content: space-evenly;
+  background-color: #319BB0;
+  padding-left: 50px;
+  overflow: hidden;
+}
+
+.valores-msg{
+  width: 100%;
+  height: auto;
+}
+
+.valores p{
+  font-size: 120%;
+  animation-name: slidein;
+  animation-iteration-count: 3;
+  animation-direction: reverse;
+}
+
+.valores h2{
+  font-size: 220%;
+  animation-name: slidein;
+  animation-iteration-count: 3;
+  animation-direction: reverse;
+}
+
+.valores .m1{
+  animation-duration: 4s;
+}
+.valores .p1{
+  animation-duration: 4.3s;
+
+}
+
+.valores .v2{
+  animation-duration: 4.7s;
+}
+.valores .p2{
+  animation-duration: 5s;
+
+}
+
+.valores .v3{
+  animation-duration: 5.4s;
+}
+.valores .p3{
+  animation-duration: 5.7s;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+/* -------------------------------------------------------------------- */
+
+.sobre-mim-pai{
+  justify-content: space-evenly;
+  display: flex;
+  padding: 30px 20px 20px 20px;
+}
+
+.sobre-mim-pai img{
+  height: 500px;
+  order: 1;
+}
+
+.sobre-mim-filho{
+  flex-wrap: wrap;
+  width: 50%;
+  order: 2;
+  padding-top: 25px;
+}
+
+.sobre-mim-pai button{
+  color: #276b79;
+  font-family: poppins;
+  text-decoration: underline;
+}
+
+.sobre-mim-pai button:hover{
+  color: #319BB0;
+}
+
+@media (max-width: 620px){
+  .sobre-mim-pai{
+    display: block;
+  }
+
+  .sobre-mim-filho{
+    width: 100%;
+  }
+}
+
+/* ------------------------------------------------------------------------ */
+.areas-atuacao-pai{
+  justify-content: center;
+  display: flex;
+  padding: 0px 20px 20px 20px;
+  width: 100%;
+}
+
+.area-at-pic{
+  order: 2;
+  width: 30%;
+  margin-left: 3%;
+}
+
+.area-at-pic img{
+  width: 100%;
+  border-radius: 50px;
+}
+
+
+.areas-atuacao-filho{
+  padding-right: 3%;
+  flex-wrap: wrap;
+  width: 45%;
+  order: 1;
+  padding-top: 25px;
+  text-align: justify;
+}
+
+@media (max-width: 620px){
+  .areas-atuacao-pai{
+    display: block;
+    width: 100%;
+  }
+
+  .area-at-pic{
+    width: 95%;
+    margin: 0;
+  }
+
+  .areas-atuacao-filho{
+    width: 95%;
+  }
+
+  .area-at-pic source{
+    width: 95%;
+  }
+}
+/* ------------------------------------------------------------------------ */
+
+.avalicao-neuro-pai{
+  justify-content: space-between;
+  display: flex;
+  padding: 0px 20px 20px 20px;
+  width: 90%;
+}
+
+.av-neuro-pic{
+  margin-left: 10%;
+  width: 25%;
+}
+
+.avalicao-neuro-filho{
+  flex-wrap: wrap;
+  width: 50%;
+  padding-top: 25px;
+  text-align: justify;
+}
+
+.av-neuro-pic img{
+  width: 50%;
+  border-radius: 50px;
+}
+
+@media (max-width: 620px){
+  .avalicao-neuro-pai{
+    display: block;
+  }
+
+  .av-neuro-pic{
+    width: 93%;
+    margin: 0;
+  }
+
+  .avalicao-neuro-filho{
+    width: 100%;
+  }
+}
+
+/* ------------------------------------------------------------------------ */
+
+.faq-pai{
+  display: block;
+  padding: 0px 20px 20px 20px;
+}
+
+.faq-filho{
+  flex-wrap: wrap;
+  width: 80%;
+  padding-top: 25px;
+  text-align: justify;
+  margin: auto;
+}
+
+.infos-adicionais{
+  flex-wrap: wrap;
+  width: 80%;
+  padding-top: 25px;
+  text-align: justify;
+  margin: auto;
+}
+
+.infos-adicionais a{
+  color: #276b79;
+  text-decoration: underline;
+}
+
+@media (max-width: 620px){
+  .faq-pai{
+    display: block;
+  }
+}
+
+/* ------------------------------------------------------------------------ */
+
+aside{
+  margin-bottom: 50px;
+}
+
+aside h3{
+  text-align: center;
+  margin-bottom: 2%;
+  font-size: 20px;
+}
+
+.mapas{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #319BB0;
+  text-align: center;
+  width: 100%;
+  height: 400px;
+}
+
+.mapas iframe{
+  height: 70%;
+  width: 80%;
+}
+
+.bauru{
+  margin-top: 0.5%;
+  color: #F2EFEB;
+  width: 50%;
+  height: 100%;
+}
+
+.sp{
+  margin-top: 0.5%;
+  color: #F2EFEB;
+  width: 50%;
+  height: 100%;
+}
+
+@media (max-width: 620px){
+  aside{
+    display: block;
+  }
+
+  .mapas{
+    height: auto;
+  }
+
+  .sp{
+    margin-right: 0.3%;
+  }
+
+}
+
+/* ------------------------------------------------------------------------ */
+footer{
+  flex-wrap: wrap;
+  font-size: 14px;
+  text-align: center;
+}
+
+footer a{
+  color: #276b79;
+}
+
+
+footer h3{
+  font-size: 25px;
+}
+
+.contatos-pai{
+  display: flex;
+  justify-content: center;
+}
+
+.contatos1{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contatos1 img{
+  width: 25px;
+}
+
+.contatos2{
+  width: 50%;
+}
+
+.contatos2 img{
+  border-radius: 100%;
+  width: 35px;
+  align-items: right;
+}
+
+.contatos2 .curriculo{
+  width: 45px;
+}
+
+@media (max-width: 620px){
+  footer{
+    display: block;
+  }
+}
+
+/* ------------------------------------------------------------------------ */
+button img{
+  width: 16px;
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+.resposta-oculta{
+  display: none;
+/* visibility: hidden; */
+}
